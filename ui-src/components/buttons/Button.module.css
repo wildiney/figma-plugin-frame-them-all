@@ -1,0 +1,39 @@
+.btn {
+  border-radius: 0.25rem;
+  background-color: hsl(0, 0%, 17.3%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  border: 1px solid var(--color-border);
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 0.875rem;
+  min-height: 2.5rem;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 21%);
+}
+
+.btn svg {
+  fill: hsl(0, 0%, 100%);
+  stroke: hsl(0, 0%, 100%);
+  max-width: 12px;
+  max-height: 12px;
+}
+
+.btn:hover img {
+  fill: var(--color-bg-inverse);
+}
+
+.btn:active {
+  background-color: var(--color-bg-active);
+}
+
+.btn:focus-visible {
+  border: none;
+  outline-color: var(--color-border-focus);
+}
