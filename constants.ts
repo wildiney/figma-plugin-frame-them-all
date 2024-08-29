@@ -1,0 +1,1 @@
+export const PLUGIN_VERSION = "v.1.0.0"
